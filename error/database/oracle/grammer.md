@@ -1,9 +1,12 @@
-#ORACLE 문법 정리
+# ORACLE 문법 정리
+
 ## Index
  - [DECODE](#DECODE)
  - [NVL](#NVL)
  - [SYSDATE](#SYSDATE)
  - [INSERT SELECT](#INSERT SELECT)
+
+-----
 
 ## DECODE
 ```
