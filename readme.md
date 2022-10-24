@@ -14,4 +14,8 @@
 #### GRADLE
 
  - [테스크](error/spring/gradle/task.md)
+
+#### JPA
+
+- [설정](error/spring/jpa/settings.md)
 ----
