@@ -3,8 +3,8 @@
 ## Index
  - [DECODE](#DECODE)
  - [NVL](#NVL)
- - [INSERT SELECT](#INSERT SELECT)
  - [SYSDATE](#SYSDATE)
+ - [INSERT SELECT](#INSERTSELECT)
 
 -----
 
