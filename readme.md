@@ -5,13 +5,13 @@
 ### DATABASE
 #### ORACLE
 
- - [문법](memory/error/database/oracle/grammer.md)
+ - [문법](error/database/oracle/grammer.md)
 ### SPRING
 #### ANNOTATION
  
- - [롬복](memory/error/spring/annotation/lombok.md)
+ - [롬복](error/spring/annotation/lombok.md)
 
 #### GRADLE
 
- - [테스크](memory/error/spring/gradle/task.md)
+ - [테스크](error/spring/gradle/task.md)
 ----
