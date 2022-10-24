@@ -4,8 +4,8 @@
  - [DECODE](#DECODE)
  - [NVL](#NVL)
  - [SYSDATE](#SYSDATE)
- - [INSERT SELECT](#INSERTSELECT)
-
+ - [INSERT SELECT](#INSERT_SELECT)
+ - [BackUp](#BackUp)
 -----
 
 ## DECODE
@@ -31,14 +31,14 @@ SYSDATE
 - TO_CHAR 함수로 포맷 설정할 수 있다.
 - ex) `SELECT TO_CHAR(SYSDATE, 'yyyy-MM-dd') FROM DUAL` return : 2022-10-24
 
-## INSERT SELECT
+## INSERT_SELECT
 ```
 INSERT INTO TABLE1
 SELECT * FROM TABLE2
 ```
 - 테이블 백업 시 주로 사용
 
-## 데이터 되살리기
+## BackUp
 ```
 AS OF TIMESTAMP(SYSTIMESTAMP-INTERVAL '100' MINUTE) 
 ```
