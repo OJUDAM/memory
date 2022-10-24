@@ -3,7 +3,7 @@
  - [DECODE](#DECODE)
  - [NVL](#NVL)
  - [SYSDATE](#SYSDATE)
- - [대량 INSERT](#대량 INSERT)
+ - [INSERT SELECT](#INSERT SELECT)
 ## DECODE
 ```
 DECODE(필드이름,(1),(2),(3),(4))
@@ -27,7 +27,7 @@ SYSDATE
 - TO_CHAR 함수로 포맷 설정할 수 있다.
 - ex) `SELECT TO_CHAR(SYSDATE, 'yyyy-MM-dd') FROM DUAL` return : 2022-10-24
 
-## 대량 INSERT
+## INSERT SELECT
 ```
 INSERT INTO TABLE1
 SELECT * FROM TABLE2
