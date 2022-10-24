@@ -4,6 +4,7 @@
  - [NVL](#NVL)
  - [SYSDATE](#SYSDATE)
  - [INSERT SELECT](#INSERT SELECT)
+
 ## DECODE
 ```
 DECODE(필드이름,(1),(2),(3),(4))
