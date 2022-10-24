@@ -3,7 +3,7 @@
  - [DECODE](#DECODE)
  - [NVL](#NVL)
  - [SYSDATE](#SYSDATE)
- - [INSERT_SELECT](#INSERT SELECT)
+ - [INSERT SELECT](#INSERT SELECT)
 
 ## DECODE
 ```
@@ -36,7 +36,7 @@ SELECT * FROM TABLE2
 - 테이블 백업 시 주로 사용
 
 ## 데이터 되살리기
-```aidl
+```
 AS OF TIMESTAMP(SYSTIMESTAMP-INTERVAL '100' MINUTE) 
 ```
 - 일정 시간 전의 데이터를 조회한다.
