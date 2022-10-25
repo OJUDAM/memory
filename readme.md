@@ -22,4 +22,9 @@
 
 - [설정](error/spring/jpa/settings.md)
 - [에러사항](error/spring/jpa/error.md)
+
+#### SPRING SECURITY
+
+- [설정](error/spring/spring-security/settings.md)
+- [에러사항](error/spring/spring-security/error.md)
 ----
