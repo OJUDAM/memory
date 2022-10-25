@@ -2,6 +2,7 @@
 ## Index
 - [@Data](#@Data)
 
+---
 ## @Data
 ```
 @Getter
