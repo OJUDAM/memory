@@ -6,6 +6,8 @@
  - [SYSDATE](#SYSDATE)
  - [INSERT SELECT](#INSERT-SELECT)
  - [BackUp](#BackUp)
+ - [UPSERT](#UPSERT)
+ - [SEQUENCE](#SEQUENCE)
 -----
 
 ## DECODE
@@ -45,4 +47,29 @@ AS OF TIMESTAMP(SYSTIMESTAMP-INTERVAL '100' MINUTE)
 - 일정 시간 전의 데이터를 조회한다.
 - ex) SELECT * FROM TABLE1 S OF TIMESTAMP(SYSTIMESTAMP-INTERVAL '100' MINUTE) --1시간 전의 TABLE1 데이터 조회
 - 테이블 삭제 후 동일한 이름으로 컬럼이 일치하지 않는 경우 조회되지 않는다.
+
+## UPSERT
+
+- UPDATE + INSERT 합성어
+
+
+## SEQUENCE
+
+- ORACLE 에는 INDEX 자동증가기능이 없다고 한다.
+
+```시퀀스 생성
+	CREATE SEQUENCE IDX2_SEQ 
+       INCREMENT BY 1   --1씩 증가
+       START WITH 1     --시작값 1
+       MINVALUE 1       --최솟값
+       MAXVALUE 99999   --최댓값
+       NOCYCLE
+       NOCACHE
+       NOORDER;
+```
+```시퀀스 삭제
+    DROP SEQUENCE IDX2_SEQ
+```
+- 시퀀스를 사용하여 INSERT 할 때마다 값이 증가하는 인덱스로 사용할 수 있다.
+
 
